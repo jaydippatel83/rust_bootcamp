@@ -42,6 +42,36 @@ fn main() {
     println!("x: {}", x);
 
 
+    let x= u32::checked_add(u32::MAX, 1);
+    println!("x: {:?}", x);
+
+    let x= u32::checked_sub(u32::MIN, 1);
+    println!("x: {:?}", x); 
+
+    let x= u32::checked_mul(5, 2);
+    println!("x: {:?}", x);
+    let x= u32::checked_div(10, 2);
+    println!("x: {:?}", x);
+
+    let x= u32::checked_rem(10, 3);
+    println!("x: {:?}", x);
+
+
+    let x= u32::wrapping_add(u32::MAX, 1);
+    println!("x: {:?}", x);
+
+    let x= u32::wrapping_sub(u32::MIN, 1);
+    println!("x: {:?}", x);
+
+    let x= u32::wrapping_mul(5, 2);
+    println!("x: {:?}", x);
+
+
+    let x= u32::wrapping_div(10, 2);
+    println!("x: {:?}", x);
+
+    let x= u32::wrapping_rem(10, 3);
+    println!("x: {:?}", x);
 
 
 }
