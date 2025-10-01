@@ -31,7 +31,10 @@ fn main() {
     let y: i32 = 2;
     let z: i32 = x + y;
     println!("The value of z is: {z}");
- 
+
+    println!("x: {:?}", x);
+    println!("y{:#?}", y);
+    println!("z{:#?}", z);
  
 
     
